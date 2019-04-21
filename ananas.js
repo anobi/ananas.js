@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Select toppings to filter out pizzas without them (ie. pineapple)
 // @author       Niko Salakka
-// @match        https://pizza-online.fi/restaurant/
+// @match        https://pizza-online.fi/restaurant/*
 // @grant        none
 // ==/UserScript==
 
