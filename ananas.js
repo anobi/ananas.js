@@ -132,7 +132,7 @@ function filter_pizzas(pizzas, filters, dom_items) {
 
 		var style = document.createElement('style');
 		style.type = 'text/css';
-		style.innerHTML = '.topping-filters { padding: 0px 5%; } .topping-filter, .topping-inactive { font-size: 1.25rem; color:#333; margin: 0px 0.5rem 0px 0px; display: inline-block; } .topping-filter:hover{color: #00BD72;} .topping-filter.topping-active{color:#00BD72;}';
+		style.innerHTML = '.topping-filters { padding: 0px 5% 2% 5%; text-align: center; } .topping-filter, .topping-inactive { font-size: 1.25rem; color:#333; margin: 0px 0.5rem 0px 0px; display: inline-block; } .topping-filter:hover{color: #00BD72;} .topping-filter.topping-active{color:#00BD72;}';
 		document.getElementsByTagName('head')[0].appendChild(style);
 
 		window.onhashchange = function() {
